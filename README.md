@@ -65,11 +65,6 @@ To deploy your site to GitHub Pages, follow these steps:
 - In the "Source" section, select "Deploy from a branch".
 - Choose the branch you want to deploy. It is recommended to merge all your branches into the main branch and deploy from there for simplicity and consistency.
 
-Here’s a visual guide to the steps:
-<div float="left">
-  <img src="screens/deployment.png" />
-</div>
-
 After successfully completing the previous steps, wait a few seconds and refresh the page. You should see the deployment URL at the topp of the Page (green box in the screenshot).
 
 Note: Once set up, any changes pushed to the main branch will be automatically deployed to GitHub Pages.
