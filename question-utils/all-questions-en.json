@@ -1,0 +1,257 @@
+[
+  {
+    "id": 0,
+    "question": "Select the category you belong to:",
+    "options": [
+      {
+        "key": "Student",
+        "next": 2
+      },
+      {
+        "key": "Parent",
+        "next": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "question": "Is the student a dependent member and listed in the applicant's tax return?",
+    "options": [
+      {
+        "key": "Yes",
+        "next": 3
+      },
+      {
+        "key": "No",
+        "next": -1,
+        "reason": "The student must be a dependent member and included in the applicant's tax declaration."
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Ιncome tax statement",
+        "description": "Recipients of the housing allowance for university students must submit a photocopy of the Ιncome tax statement from the relevant Tax Office of the last tax return."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Select the category you belong to:",
+    "options": [
+      {
+        "key": "I am an orphan of both parents",
+        "next": 3
+      },
+      {
+        "key": "The parents are residents abroad",
+        "next": 3
+      },
+      {
+        "key": "I am over 25 years old",
+        "next": 3
+      },
+      {
+        "key": "I am obligated to file a tax return and am not considered a dependent member",
+        "next": 3
+      },
+      {
+        "key": "None of the above",
+        "next": -1,
+        "reason": "The beneficiary is the student themselves if: a) they are an orphan from both parents, or b) their parents are residents abroad, or c) they are over 25 years old, or d) they are required to submit a tax declaration and are not considered a dependent member."
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Family Status Certificate",
+        "description": "In case the recipient is an orphan or above 25 years of age a family status certificate should be provided."
+      },
+      {
+        "name": "Death Certificate of Parents",
+        "description": "In case the recipient is an orphan and one or both parents are deceased a death certificate should be provided."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Is the student's academic ID valid?",
+    "options": [
+      {
+        "key": "Yes",
+        "next": 4
+      },
+      {
+        "key": "No",
+        "next": -1,
+        "reason": "The student must have a valid academic ID."
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Academic ID",
+        "description": "A photocopy of the student's academic ID should be provided."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which of the following categories do you belong to?",
+    "options": [
+      {
+        "key": "Greek citizen",
+        "next": 5
+      },
+      {
+        "key": "Citizen of EU Member States",
+        "next": 5
+      },
+      {
+        "key": "None of the above",
+        "next": -1,
+        "reason": "The student must be a Greek citizen or a citizen of an EU member state."
+      }
+    ],
+    "evidence": [
+      {
+        "name": "ID card or passport",
+        "description": "A photocopy of the student's ID card or passport should be provided."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Do you possess Taxisnet credentials?",
+    "options": [
+      {
+        "key": "Yes",
+        "next": 6
+      },
+      {
+        "key": "No",
+        "next": -1,
+        "reason": "The rented residence for studies must be in a different city from the student's primary residence."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Is the house rented for studies located in a city different from the primary residence?",
+    "options": [
+      {
+        "key": "Yes",
+        "next": 7
+      },
+      {
+        "key": "No",
+        "next": -1,
+        "reason": "Submission of the application requires possession of Taxisnet credentials."
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Sworn statement under Law 1599/86 regarding the exact address of residence",
+        "description": "Sworn statement under Law 1599/86 regarding the exact address of residence. The above Law should also declare the non-receipt of the Movement Card from another Prefecture or KEP."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Select the category you belong to:",
+    "options": [
+      {
+        "key": "I reside in a home that I or a parent have full ownership or usufruct of",
+        "next": -1,
+        "reason": "The rented residence for studies must not belong to the student or their parent."
+      },
+      {
+        "key": "I reside in a rented home that does not belong to me or a parent",
+        "next": 8
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Lease Agreement",
+        "description": "The lease agreement of the residence the student resides in must be provided."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Is the lease valid for more than 6 months?",
+    "options": [
+      {
+        "key": "Yes",
+        "next": 9
+      },
+      {
+        "key": "No",
+        "next": -1,
+        "reason": "The lease agreement must be valid for more than 6 months."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Is the student or a parent the owner or usufructuary of residences (self-used or rented) exceeding two hundred (200) sq.m. cumulatively in a municipality with a population <strong>greater</strong> than 3,000 inhabitants?",
+    "options": [
+      {
+        "key": "Yes",
+        "next": -1,
+        "reason": "The student or their parent must not own or have usufruct rights on properties exceeding a total of 200 square meters in a municipality with a population greater than 3,000 inhabitants."
+      },
+      {
+        "key": "No",
+        "next": 10
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Real Estate Property Declaration (E9)",
+        "description": "The Real Estate Property Declaration (E9) must be provided and can be acquired on myAADE (TAXISnet)"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Select the category you belong to:",
+    "options": [
+      {
+        "key": "The annual family income of the previous year is <strong>greater</strong> than 30,000€ (increased by 3,000€ for each dependent child beyond the first)",
+        "next": -1,
+        "reason": "The annual family income of the previous year must not exceed €30,000 (increased by €3,000 for each dependent child beyond the first one)."
+      },
+      {
+        "key": "The annual family income of the previous year is <strong>less</strong> than 30,000€ (increased by 3,000€ for each dependent child beyond the first)",
+        "next": 11
+      }
+    ],
+    "evidence": [
+      {
+        "name": "Ιncome tax statement",
+        "description": "Recipients of the housing allowance for university students must submit a photocopy of the Ιncome tax statement from the relevant Tax Office of the last tax return."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Has the student been successfully examined in at least half of the previous academic year?",
+    "options": [
+      {
+        "key": "Yes",
+        "next": -2
+      },
+      {
+        "key": "No",
+        "next": -1,
+        "reason": "The student must have successfully passed at least half of the courses of the previous academic year."
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev0013",
+        "type": "Evidence",
+        "name": "Detailed Transcript of Grades",
+        "description": "Recipients of the housing allowance for university students must submit a detailed transcript of grades for the previous academic year provided by the relevant University."
+      }
+    ]
+  }
+]

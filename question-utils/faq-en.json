@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "question": "When should the application for the student housing allowance be submitted?",
+    "answer": "Applications for the student housing allowance for each academic year must be submitted within the deadline, from June 1 to June 30 of each year."
+  },
+  {
+    "id": 1,
+    "question": "How is the granted amount of the annual housing allowance determined for the beneficiary?",
+    "answer": "For undergraduate students, the amount is one thousand five hundred (1,500) euros. For students studying outside the Region of Attica or the Regional Unit of Thessaloniki, the amount is two thousand (2,000) euros."
+  },
+  {
+    "id": 2,
+    "question": "I already have a university degree and I am studying for a second degree. Am I eligible for the housing allowance?",
+    "answer": "According to the current legal framework, students pursuing a second degree are not entitled to the housing allowance, regardless of how they were admitted to higher education."
+  },
+  {
+    "id": 3,
+    "question": "I am a postgraduate/doctoral student. Am I eligible for the student housing allowance?",
+    "answer": "According to the current legal framework, the student housing allowance is granted to undergraduate students."
+  }
+]
