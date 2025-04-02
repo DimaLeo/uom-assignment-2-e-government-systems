@@ -73,4 +73,4 @@ By following these steps, your site will be live and accessible via the provided
 
 ## Acknowledgments
 
-This project was developed as part of a thesis assignment. Special thanks to our professors and mentors for their guidance and support.
+This project was developed as an assignment for an e-Government subject for the master's course of the University of Macedonia.
